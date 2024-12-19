@@ -12,7 +12,7 @@ import {
   ShoppingCartOutlined,
   UserOutlined,
   } from '@ant-design/icons';
-import "@/views/style/ListCart.css";
+import "@/views/style/listCart.css";
 import { Footer } from 'antd/es/layout/layout';
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
 
