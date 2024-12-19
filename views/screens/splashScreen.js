@@ -4,10 +4,10 @@ import '@/views/style/components/SplashScreen.css';
 import { ClipLoader } from 'react-spinners';
 import { getHighestBidder, getHighestPrice } from '@/views/services/AuctionServices';
 
-const SplashScreen = ({ auctionIdLive, onComplete, zoomSpeed = 2.5 }) => {
+const SplashScreen = ({ auctionIdLive, onComplete, zoomSpeed = 2.5, winner,  price}) => {
 
   const [winner, setWinner] = useState('');
-  const [highestPrice, setHighestPrice] = useState(0);
+  const [price, setHighestPrice] = useState(0);
 
   //lấy thông tin người chiến thắng của cuộc đấu giá ấy
   const getResult = async () => {
@@ -54,7 +54,7 @@ const SplashScreen = ({ auctionIdLive, onComplete, zoomSpeed = 2.5 }) => {
         </div>
         <div className="name-price">
           <h1 className="tit-price">Hammer Price:&nbsp; </h1>
-          <h1 className="price"> {highestPrice ? `${highestPrice.toLocaleString()} $` : (<ClipLoader color="#22C55E" size={18} />)}</h1>
+          <h1 className="price"> {price ? `${price.toLocaleString()} $` : (<ClipLoader color="#22C55E" size={18} />)}</h1>
         </div>
       </motion.div>
     </motion.div>

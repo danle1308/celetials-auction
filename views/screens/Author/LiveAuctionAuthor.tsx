@@ -13,6 +13,8 @@ import { getInforAuction, endedAuction, getAuctionForEx } from '@/views/utils/au
 import SplashScreen from '@/views/screens/splashScreen';
 import FooterAll from '@/views/components/Footer';
 
+
+
 export default function LiveAuctionAuthor() {
   const { auctionIdLive } = useParams();
   const [auctionData, setAuctionData] = useState<any[]>([]);
