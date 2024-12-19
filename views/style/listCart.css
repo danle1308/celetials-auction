@@ -1,0 +1,145 @@
+.headerInfor {
+    background-color: rgb(245 245 245);
+}
+
+.divTitle {
+    background-color: rgb(116, 255, 186) !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+    padding-left: 15px !important; 
+}
+
+.row {
+    height: 100%;
+}
+
+.col1 {
+    height: 100%;
+}
+
+.col2 {
+    height: 100%;
+}
+
+.divInfor {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+}
+
+.date {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+}
+
+
+.headerRight {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.iconBell {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.iconDollar {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.showTotalMoney {
+    margin-left: 3.5px;
+    margin-bottom: 2px;
+    font-weight: lighter;
+}
+
+
+.row1 {
+    height: fit-content;
+    display: flex;
+}
+.row2 {
+    flex-grow: 9;
+    display: flex;
+}
+.colRow2 {
+    width: 100%;
+}
+.rowProduct {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.divCard {
+    width: 100%;
+}
+
+.divButton {
+    display: flex;
+    gap: 20px;
+}
+.butUnpaid {
+    width: 130px;
+    background-color: #22C55E;
+    color: white;
+}
+.butPaid {
+    width: 130px;
+    background-color: #D9D9D9;
+    color: #22C55E;
+}
+.butRefunded {
+    width: 130px;
+    background-color: #D9D9D9;
+    color: #22C55E;
+}
+.butDetail {
+    background-color: #22C55E;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.spanPrice {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+    border: 1px solid #999999; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+.divDescription {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}

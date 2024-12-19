@@ -1,0 +1,281 @@
+:root {
+    --space-grotesk-fonts: 'Space Grotesk';
+  }
+  
+  .collapse {
+    padding-bottom: 0 !important;
+  }
+  
+  .navbar {
+    background-color: #080D20;
+  }
+  
+  .navbar-nav {
+    gap: 30px;
+  }
+  
+  .nav-link {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 20px !important;
+    color: #989898 !important;
+  }
+  
+  .nav-link:hover {
+    transition: 300ms !important;
+    color: #22C55E !important;
+  }
+  
+  .logo img {
+    display: block;
+    width: clamp(35px, 20vw, 65px);
+    height: auto;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--space-grotesk-fonts);
+    font-size: 17px !important;
+    color: #989898 !important;
+  }
+  
+  .login {
+    text-decoration: none;
+    color: #989898;
+  }
+  
+  .signup {
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #22C55E;
+  }
+  
+  .login-dropdown {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-dropdown button {
+    font-family: var(--space-grotesk-fonts);
+    background-color: transparent;
+    color: #556987;
+    border: none;
+    text-align: left;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .login-dropdown button:hover {
+    background-color: #22C55E;
+    color: #ffffff;
+  }
+
+  .infor-user {
+    width: fit-content;
+  }
+
+  .row-infor {
+    gap: 20px;
+    justify-content: flex-end;
+  }
+  .cart {
+    width: 40px;
+    height: 40px;
+    background-color: #a9a9a9;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .money {
+    width: fit-content;
+    height: 40px;
+    background-color: #a9a9a9;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .show-total {
+    width: fit-content;
+  }
+  .total {
+    color: #080D20 !important;
+    font-family: var(--space-grotesk-fonts);
+    font-weight: 500;
+    font-size: 21px;
+    margin: 0;
+    padding-right: 7px;
+  }
+  .icon-money {
+    height: 40px;
+    width: 30px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+  }
+  .user {
+    width: 40px;
+    height: 40px;
+    background-color: #a9a9a9;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.login-dropdown {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-dropdown button {
+    font-family: var(--space-grotesk-fonts);
+    background-color: transparent;
+    color: #556987;
+    border: none;
+    text-align: left;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .login-dropdown button:hover {
+    background-color: #22C55E;
+    color: #ffffff;
+  }
+
+  /* Giữ nguyên kiểu dáng của thẻ cart */
+  .cart {
+    transition: transform 0.3s ease;
+    will-change: transform;
+  }
+
+
+.cart.animate-cart {
+  transform: scale(1.1);
+  background-color: #f0f0f0;
+}
+
+
+.cart .ant-badge-count {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #22C55E;
+}
+
+
+.cart.animate-cart .ant-badge-count {
+  transform: scale(1.2);
+}
+
+.bi-cart.zoomed {
+  transform: scale(1.1);
+  fill: #22C55E;
+  transition: transform 0.2s ease, fill 0.2s ease;
+  will-change: transform, fill;
+}
+
+.bi-cart {
+  will-change: transform, fill;
+  transform: scale(1);
+  fill: black;
+  margin-bottom: 4px;
+  margin-right: 1px;
+}
+
+.over {
+  height: fit-content;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  
+}
+
+.auctions-dropdown {
+  margin-top: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(3 * 200px);
+  overflow-y: auto;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  height: 330px;
+  overflow-y: auto;
+  padding-right: 10px; 
+  justify-content: center;
+}
+
+.auctions-dropdown::-webkit-scrollbar {
+  width: 5px; 
+}
+
+.auctions-dropdown::-webkit-scrollbar-track {
+  background: #b7b7b7;
+}
+
+.auctions-dropdown::-webkit-scrollbar-thumb {
+  background: #22C55E;
+  border-radius: 10px;
+}
+
+.auctions-dropdown .ant-card {
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-all {
+  font-family: var(--space-grotesk-fonts);
+  width: 100px;
+  height: 30px;
+  background-color: #22C55E;
+  color: white;
+  border-radius: 30px;
+  border: #22C55E;
+  text-decoration: none;
+  text-align: center;
+  margin: 15px 0;
+}
+.view-all:hover {
+  transition: 400ms;
+  scale: 1.05;
+}
+
+.no-auctions {
+  font-family: var(--space-grotesk-fonts);
+  font-size: 20px;
+  font-weight: 400;
+  align-self: center;
+}

@@ -1,0 +1,23 @@
+export const products = [
+    { id: 1, imageUrl: "/gif-6-LINE FRIENDS.gif", productName: "LINE FRIENDS", price: "$30", isNew: false },
+    { id: 2, imageUrl: "/gif-7-Among Us.gif", productName: "Among Us", price: "$30", isNew: true },
+    { id: 3, imageUrl: "/gif-8-Minions.gif", productName: "Minions", price: "$30", isNew: false },
+    { id: 4, imageUrl: "/gif-9-Kennysgifs.gif", productName: "Kennysgifs", price: "$30", isNew: false },
+    { id: 5, imageUrl: "/gif-10-SpongeBobSquarePants.gif", productName: "SpongeBobSquarePants", price: "$30" , isNew: true },
+    { id: 6, imageUrl: "/gif-11-Droners.gif", productName: "Droners", price: "$30" , isNew: false },
+    { id: 7, imageUrl: "/gif-12-CartoonHangover.gif", productName: "CartoonHangover", price: "$30" , isNew: false },
+    { id: 8, imageUrl: "/gif-13-Squishiverse.gif", productName: "Squishiverse", price: "$30" ,isNew: true },
+    { id: 9, imageUrl: "/gif-14-CartoonNetworkAsia.gif", productName: "CartoonNetworkAsia", price: "$30" ,isNew: false },
+    { id: 10, imageUrl: "/gif-15-GIPHYStudios2021.gif", productName: "GIPHYStudios2021", price: "$30" , isNew: true },
+    { id: 11, imageUrl: "/gif-16-CartoonNetworkEMEA.gif", productName: "CartoonNetworkEMEA", price: "$30" , isNew: false },
+    { id: 12, imageUrl: "/gif-17-Capivarinha.gif", productName: "Capivarinha", price: "$30" , isNew: true },
+    { id: 13, imageUrl: "/gif-18-DanielWatson.gif", productName: "DanielWatson", price: "$30" ,isNew: false },
+    { id: 14, imageUrl: "/gif-19-ShilstoneArts.gif", productName: "ShilstoneArts", price: "$30" , isNew: true },
+    { id: 15, imageUrl: "/gif-20-Tretana.gif", productName: "Tretana", price: "$30" , isNew: false },
+    { id: 16, imageUrl: "/gif-21-ShareItAgain.gif", productName: "ShareItAgain", price: "$30" , isNew: true },
+    { id: 17, imageUrl: "/gif-22-Casumo.gif", productName: "gif-22-Casumo", price: "$30" , isNew: false },
+    { id: 18, imageUrl: "/gif-23-PuSheen.gif", productName: "PuSheen", price: "$30" , isNew: true},
+    { id: 19, imageUrl: "/gif-24-TheCheekyPanda.gif", productName: "TheCheekyPanda", price: "$30", isNew: false },
+    { id: 20, imageUrl: "/gif-ne-2.gif", productName: "Product 2", price: "$30" , isNew: true},
+  ];
+  

@@ -1,0 +1,151 @@
+.col1 {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 27px !important;
+    line-height: normal;
+    height: auto;
+    display: inline-block;
+}
+
+.helloName {
+    font-family: var(--space-grotesk-fonts) !important;
+    margin: 0;
+    padding-top: 7px;
+}
+
+.col2 {
+    height: 100%;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerRight {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.iconBell {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.iconDollar {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.showTotalMoney {
+    width: 120px;
+    height: 40px;
+    line-height: 40px; 
+    text-align: center;
+    border-radius: 5px; 
+    border: 1px solid #f0f0f0;
+    color: #22C55E; 
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+
+  .infor-user {
+    width: fit-content;
+  }
+
+  .row-infor {
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 15px;
+  }
+  .cart {
+    width: 40px !important;
+    height: 40px;
+    background-color: #a9a9a9;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .money {
+    width: fit-content !important;
+    height: 40px;
+    background-color: #a9a9a9;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .show-total {
+    width: fit-content;
+  }
+  .total {
+    font-family: var(--space-grotesk-fonts);
+    font-weight: 500;
+    font-size: 21px;
+    /* color: #00d74f; */
+    margin: 0;
+    padding-right: 7px;
+  }
+  .icon-money {
+    height: 40px;
+    width: 30px;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+  }
+  .user {
+    width: 40px !important;
+    height: 40px;
+    background-color: #a9a9a9;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+.login-dropdown {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-dropdown button {
+    font-family: var(--space-grotesk-fonts);
+    background-color: transparent;
+    color: #556987;
+    border: none;
+    text-align: left;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .login-dropdown button:hover {
+    background-color: #22C55E;
+    color: #ffffff;
+  }

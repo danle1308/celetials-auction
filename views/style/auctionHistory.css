@@ -1,0 +1,268 @@
+
+:root {
+    --space-grotesk-fonts: 'Space Grotesk';
+}
+.headerInfor {
+    background-color: #f5f5f5;
+}
+
+.ant-layout {
+    overflow: hidden;
+    background-color: #080D20;
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.divTitle {
+    background-color: #22C55E !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+}
+
+.row {
+    height: 100%;
+}
+
+.col1 {
+    height: 100%;
+}
+
+.col2 {
+    height: 100%;
+}
+
+.divInfor {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+}
+
+.date {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+}
+
+
+.headerRight {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.iconBell {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.iconDollar {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.showTotalMoney {
+    margin-left: 3.5px;
+    margin-bottom: 2px;
+    font-weight: lighter;
+}
+
+.row1 {
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.row2 {
+    flex-grow: 9;
+    display: flex;
+}
+.colRow2 {
+    width: 100%;
+}
+.rowProduct {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.divCard {
+    width: 100%;
+}
+
+.div-approve {
+    font-family: var(--space-grotesk-fonts) !important;
+    flex-shrink: 0; /* Giữ kích thước gốc của nút Approve */
+}
+
+.but-approve {
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.divSearch {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.productName :hover {
+    border-color: #22C55E;
+}
+.productName :focus {
+    border-color: #22C55E !important;
+}
+
+.divFrom {
+    width: 200px;
+}
+.divTo {
+    width: 200px;
+}
+.productName {
+    width: 210px;
+}
+
+.ant-picker {
+    width: 100%;
+    position: relative;
+}
+.ant-picker :hover{
+    border-color: #22C55E;
+}
+
+.ant-picker-input input::placeholder {
+    color: #22C55E;
+}
+
+.divTable {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.colTable {
+    width: 100%;
+    height: 100%;
+}
+
+.ant-table {
+    width: 100%;
+    height: 100%;
+}
+
+.titFromDiv {
+    color: #e6e6e6;
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.ant-input {
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.ant-input:-webkit-autofill {
+    background-color: #eaeaea !important; /* Màu nền bạn muốn */
+    -webkit-box-shadow: 0 0 0px 1000px #eaeaea inset !important; /* Ghi đè shadow */
+    -webkit-text-fill-color: #000 !important; /* Màu chữ nếu cần */
+  }
+
+.ant-layout-sider-children {
+    background-color: #0e182f;
+}
+.ant-layout-sider-trigger {
+    background: #151A31;
+}
+.ant-menu {
+    background-color: #0e182f;
+}
+
+.ant-pagination-item {
+    font-family: var(--space-grotesk-fonts) !important;
+    border-color: #22C55E !important;
+}
+
+.ant-modal-content {
+    font-family: var(--space-grotesk-fonts);
+}
+
+.ant-form-item-required {
+    font-family: var(--space-grotesk-fonts) ;
+}
+
+.ant-form-item-explain-error {
+    font-family: var(--space-grotesk-fonts) ;
+}
+
+.ant-table-cell {
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.but-delete {
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.but-join {
+    font-family: var(--space-grotesk-fonts) !important;
+    color: #22C55E !important;
+    border-color: #22C55E !important;
+}
+.but-join:hover {
+    transition: 400ms;
+    background-color: #22C55E !important;
+    color: #eaeaea !important;
+}
+.name-product {
+    font-family: var(--space-grotesk-fonts) !important;
+    color: #080D20 !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none !important;
+}
+.name-product:hover {
+    text-decoration: underline !important;
+}
+
+.ant-btn-primary {
+    background-color: #22C55E !important;
+}
+
+.ant-btn-primary:hover {
+    transition: 500ms;
+    scale: 1.1;
+    background-color: #1cd961 !important;
+}
+
+.but-join-delete {
+    display: flex;
+    gap: 5px;
+}
+.ant-tooltip-inner {
+    font-family: var(--space-grotesk-fonts) !important;
+}

@@ -1,0 +1,47 @@
+.directional .ant-menu-item {
+    position: relative; 
+    color: #000;
+    transition: color 0.3s ease; 
+  }
+  
+  .directional .ant-menu-item a {
+    text-decoration: none;
+    font-size: 16px; 
+  }
+  
+  .directional .ant-menu-item:hover {
+    color: #22C55E;
+  }
+  
+  .directional .ant-menu-item::after {
+    content: ''; 
+    display: none; 
+  }
+  
+  .directional .ant-menu-item:hover::after {
+    background-color: #22C55E; 
+  }
+  .card-hover-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+  }
+  
+  .card-hover-effect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .time-info {
+    font-size: 12px;
+    color: #888;
+    margin: 15px;
+    text-align: left;
+    font-style: italic;
+    display: block;
+
+}
+  .card-hover-effect p {
+    padding-top: 0px;
+  }
+  .no-padding-card .ant-card-body {
+    padding: 12px !important;
+}

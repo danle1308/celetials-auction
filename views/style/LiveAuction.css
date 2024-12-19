@@ -1,0 +1,342 @@
+.sec-liveAuction {
+    background: linear-gradient(to bottom, #080D20, #151A31);
+    height: fit-content;
+    border-bottom: solid 3px #4cad6f;
+}
+
+.timeLess {
+    font-family: var(--space-grotesk-fonts);
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+}
+
+.timeCount {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 40px;
+    color: #22C55E;
+    text-align: center;
+}
+
+.div-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-product {
+    height: 290px;
+    width: 290px;
+    border-radius: 5px;
+}
+
+.div-extend {
+    display: flex;
+    justify-content: center;
+}
+
+.title-extend {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    border: 1px solid #22C55E;
+    width: fit-content;
+    padding: 3px 20px;
+    background-color: #22C55E;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.product-name {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+}
+
+.product-name::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 35px;
+    width: 2px;
+    background: #135a2d;
+}
+
+.author-name {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+}
+.author-name::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 35px;
+    width: 2px;
+    background: #135a2d;    
+}
+
+.suggest {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+
+
+
+
+
+
+
+
+.greenBox {
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    margin: 2px; 
+    margin-bottom: 2px;
+    border-radius: 10px;
+    border: 3px solid #8df0b1;
+    height: fit-content;
+}
+
+.title {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 19px;
+    margin: 0;
+}
+
+
+.iconChart {
+    margin-left: 5px;
+}
+
+.divider {
+    height: 3px;
+    color: white;
+    margin-top: 0;
+}
+
+.currentMoney-title {
+    display: flex;
+    font-family: var(--space-grotesk-fonts);
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    /* margin-top: 10px; */
+}
+
+.currentPrice {
+    margin-left: auto;
+    margin-right: 20px;
+    color: #22C55E;
+    font-family: var(--space-grotesk-fonts);
+}
+
+.inforPrice {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.priceField, .multiplierField, .totalField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 37px;
+    color: white;
+    font-family: var(--space-grotesk-fonts);
+}
+
+
+.priceField {
+    width: 130px;
+    border: 1.5px solid #a4a4a4;
+    position: relative;
+    font-family: var(--space-grotesk-fonts);
+}
+
+.priceField::before {
+    content: "Step price";
+    position: absolute;
+    top: -10.5px;
+    left: 8px;
+    font-size: 12px;
+    background-color: #151A31;
+    font-family: var(--space-grotesk-fonts);
+}
+
+.multiplierField {
+    gap: 20px;
+    padding: 2px;
+    border: 2px solid #a4a4a4;
+}
+
+.totalField {
+    display: flex;
+    border: 2px solid #a4a4a4;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 100px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.multiplySymbol {
+    font-family: var(--space-grotesk-fonts);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.equalSymbol {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: var(--space-grotesk-fonts);
+}
+
+.increaseButton, .decreaseButton {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    background-color: #22C55E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.increaseButton:hover, .decreaseButton:hover {
+    background-color: #1a9a45;
+}
+
+.buttonPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butPrice {
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #22C55E;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: var(--space-grotesk-fonts);
+}
+.butPrice:hover {
+    background-color: rgb(255, 255, 255) !important;
+    color: #000 !important;
+    border: 1px solid black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.updateBox {
+    padding: 5px ;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid #8df0b1;
+    height: fit-content;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-card {
+    border: 2px solid #4cad6f !important;
+    background-image: linear-gradient(to bottom, #0A0F23, #d7def8) !important;
+}
+
+.card-header {
+    font-family: var(--space-grotesk-fonts);
+    color: #1fdb5d !important;
+}
+
+.body-noti {
+    font-family: var(--space-grotesk-fonts);
+    padding: 10px 16px !important;
+}
+
+.notification {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.div-time-noti {
+    display: flex;
+    justify-content: center;
+}
+
+.time-noti {
+    margin: 0;
+    font-style: italic;
+}
+
+.no-bids-message {
+    margin-left: 4px;
+    font-family: var(--space-grotesk-fonts);
+    color: #4cad6f;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.card-auctions {
+    width: 200px !important;
+    background-color: #d5d5d5;
+    border-radius: 10px;
+}
+.card-auctions:hover {
+    transition: 500ms;
+    scale: 1.05;
+}
+
+.card-body-auctions{
+    font-family: var(--space-grotesk-fonts);
+    padding: 10px 0 !important;
+    
+}
+.card-text-auctions {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 400;
+}
+.card-title-auctions {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card-title-auctions:hover {
+    color: #29a356;
+    transition: 0.3s;
+}

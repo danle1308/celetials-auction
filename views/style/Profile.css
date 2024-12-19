@@ -1,0 +1,239 @@
+:root {
+    --space-grotesk-fonts: 'Space Grotesk';
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.headerInfor {
+    background-color: #f5f5f5;
+}
+
+.ant-layout {
+    overflow: hidden;
+    background-color: #080D20;
+    font-family: var(--space-grotesk-fonts) !important;
+}
+.divTitle {
+    background-color: #22C55E !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+}
+
+.titFromDiv {
+    color: #e6e6e6;
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.row {
+    height: 100%;
+}
+
+.col13 {
+    height: 100%;
+    padding: 0 !important;
+}
+
+.col2 {
+    height: 100%;
+}
+
+.ant-form-item-label {
+    font-family: var(--space-grotesk-fonts);
+}
+
+.divInfor {
+    background-color: #f4f4f4 !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+}
+
+.date {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+}
+
+
+.headerRight {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.iconBell {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.iconDollar {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.showTotalMoney {
+    
+    width: 120px;
+    height: 40px;
+    line-height: 40px; 
+    text-align: center;
+    border-radius: 5px; 
+    border: 1px solid #f0f0f0;
+    color: #22C55E; 
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+
+.row1 {
+    height: fit-content;
+    display: flex;
+}
+.row2 {
+    flex-grow: 1;
+    display: flex;
+}
+.row3 {
+    flex-grow: 90;
+    display: flex;
+}
+.divName {
+    font-family: var(--space-grotesk-fonts);
+    width: 150px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+.colName {
+    align-self: center;
+}
+.rowName {
+    gap: 10px;
+}
+.textName {
+    font-weight: bold;
+  }
+.textEmail {
+    font-weight: lighter;
+}
+.connectWalletBut{
+    font-family: var(--space-grotesk-fonts);
+    background-color: #22C55E;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.butConnectInModal{
+    background-color: #22C55E;
+    color: white;
+    margin-top: 6px;
+    margin-left: 7px;
+    font-family: var(--space-grotesk-fonts);
+}
+
+.colEdit {
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    gap: 20px;
+}
+.buttonEdit {
+    font-family: var(--space-grotesk-fonts);
+    background-color: #22C55E;
+    color: white;
+}
+
+.divInput1 {
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.divInput2 {
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+
+.row31 {
+    height: 25px;
+    padding-left: 10px;
+}
+.row32 {
+    height: 55px;
+    padding-left: 10px;
+}
+.row33 {
+    height: 30px;
+    padding-left: 10px;
+}
+.textEmailAddress {
+    font-family: var(--space-grotesk-fonts);
+    font-weight: 600;
+}
+.textMail {
+    font-weight: 600;
+}
+.textMonth {
+    
+    font-weight: lighter;
+}
+.colEmail {
+    font-family: var(--space-grotesk-fonts);
+    margin-left: 10px;
+}
+.modal-ok-button {
+    background-color: #22C55E;
+    color: white;
+  }
+
+.ant-input:-webkit-autofill {
+    background-color: #eaeaea !important; /* Màu nền bạn muốn */
+    -webkit-box-shadow: 0 0 0px 1000px #eaeaea inset !important; /* Ghi đè shadow */
+    -webkit-text-fill-color: #000 !important; /* Màu chữ nếu cần */
+  }
+
+.ant-layout-sider-children {
+    background-color: #0e182f;
+}
+.ant-layout-sider-trigger {
+    background: #151A31;
+}
+.ant-menu {
+    background-color: #0e182f;
+}

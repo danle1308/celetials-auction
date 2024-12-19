@@ -1,0 +1,62 @@
+.splash-screen-overlay {
+    font-family: var(--space-grotesk-fonts);
+    color: #dadada;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #111111b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .splash-screen-content {
+    background: #161c31;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px #0000004d;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name-winner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+  }
+
+  .name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .tit-price {
+    font-size: 20px;
+  }
+
+  .price {
+    color: #22C55E;
+    font-size: 20px;
+  }
+
+  .congrat {
+    font-size: 40px;
+  }
+  .tit-name {
+    font-size: 20px;
+  } 
+  .name {
+    color: #22C55E;
+    font-size: 20px;
+  }

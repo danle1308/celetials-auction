@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+    --space-grotesk-fonts: 'Space Grotesk';
+}
+
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Space Grotesk';
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+.description-signup {
+    font-family: var(--space-grotesk-fonts);
+	font-size: 12px;
+    margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+    color: white;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 30px;
+	height: 100%;
+	text-align: center;
+}
+
+.form-signup {
+    width: 100%;
+}
+
+.inputtable {
+    height: 37px;
+    background-color: #eee;
+    border: none;
+    border-radius: 2px !important;
+}
+.inputtable:hover {
+    transition: 500ms;
+    background-color: #d6d6d6;
+}
+
+.ant-select-selector {
+    background: none !important;
+    border: none !important;
+    font-family: 'Space Grotesk' !important;
+}
+
+.ant-input {
+    font-size: 15px;
+    font-family: 'Space Grotesk';
+}
+
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.overlay {
+	background: linear-gradient(to right, #080D20, #81848f);
+    background-repeat: no-repeat;
+	color: #FFFFFF;
+	position: relative;
+	left: 0;
+	height: 100%;
+	width: 200%;
+}
+
+.title-container {
+    background: linear-gradient(to right, #080D20, #81848f);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+	height: 100%;
+    width: 50%;
+    position: absolute;
+	top: 0;
+}
+
+.welcome-back {
+    font-weight: bold;
+	margin: 0;
+    font-size: 40px;
+}
+
+.overlay-panel {
+    font-family: var(--space-grotesk-fonts);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 25px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+}
+
+.ghost {
+    font-family: var(--space-grotesk-fonts);
+	background-color: #22C55E;
+    border-radius: 20px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+}
+.ghost:hover {
+    scale: 1.1;
+    transition: 500ms;
+}
+
+.but-signup {
+    font-family: var(--space-grotesk-fonts);
+    background-color: #22C55E;
+    border-radius: 20px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+}
+.but-signup:hover {
+    scale: 1.1;
+    transition: 500ms;
+    box-shadow: 0px 4px 10px 3px #bfe2ca;
+}
+
+
+/*==================================*/
+
+.ant-modal-content {
+    border-radius: 10px !important;
+    padding: 0 !important;
+}
+
+.modal-code {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-modal {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.input-code {
+    border: 1px solid black;
+}
+
+.input-code:hover {
+    transition: 500ms;
+    background-color: #eaeaea;
+    border: 1px solid black;
+}
+
+.submit-code {
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #22C55E;
+}
+.submit-code:hover {
+    transition: 500ms;
+    scale: 1.05;
+    background: #22C55E !important;
+    box-shadow: 0px 4px 10px 3px #3b5b45;
+}
+.form-code {
+    background-color: transparent;
+    height: fit-content;
+}
+
+.tit-Create {
+    font-family: var(--space-grotesk-fonts);
+    font-weight: bold;
+	margin: 0;
+    font-size: 40px;
+}
+
+.ant-select-selection-search-input {
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.ant-select-selection-item {
+    font-family: var(--space-grotesk-fonts) !important;
+}

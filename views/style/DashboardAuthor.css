@@ -1,0 +1,151 @@
+:root {
+    --space-grotesk-fonts: 'Space Grotesk';
+}
+.headerInfor {
+    background-color: #f5f5f5;
+}
+
+.chart-title {
+    font-family: var(--space-grotesk-fonts) !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.custom-bar-title {
+    font-family: var(--space-grotesk-fonts) !important;
+    font-size: 25px !important;
+    font-weight: 500;
+    text-align: center;
+}
+
+.titFromDiv {
+    color: #e6e6e6;
+    font-size: 25px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.ant-layout {
+    overflow: hidden;
+    background-color: #080D20;
+    font-family: var(--space-grotesk-fonts) !important;
+}
+
+.divTitle {
+    background-color: #22C55E !important;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+}
+
+.row {
+    height: 100%;
+}
+
+.col1 {
+    height: 100%;
+}
+
+.col2 {
+    height: 100%;
+}
+
+.divInfor {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 650;
+}
+
+.date {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+}
+
+
+.headerRight {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.iconBell {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.iconDollar {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.showTotalMoney {
+    margin-left: 3.5px;
+    margin-bottom: 2px;
+    font-weight: lighter;
+}
+
+/* css chỉnh sửa menu và thanh thông tin người dùng */
+
+.colWithBorderEffect {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.colWithBorderEffect1 {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.colWithBorderEffect > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.totalText {
+    font-family: var(--space-grotesk-fonts);
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.totalAmount {
+    font-family: var(--space-grotesk-fonts);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.lineChart {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none !important;
+}

@@ -1,0 +1,99 @@
+.footer-all {
+    background-color: #151a31;
+    height: fit-content;
+}
+.div-infor-top {
+    font-family: var(--space-grotesk-fonts);
+    color: white;
+}
+.foot-logo {
+    width: 30%;
+    height: auto;
+}
+.foot-title {
+    color: #989898;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.foot-title1 {
+    color: #989898;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.form-control {
+    margin: 0;
+    height: 45px;
+}
+.input-group {
+    padding-top: 20px;
+}
+.but-foot {
+    color: white;
+    height: 45px;
+    background-color: #22C55E;
+    border-radius: 0px 3px 3px 0px ;
+}
+.but-foot:hover {
+    transition: 500ms;
+    background-color: #263440;
+}
+.infor1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infor2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.infor3 {
+    display: flex;
+    padding-top: 25px;
+}
+.contact {
+    font-weight: 400;
+    font-size: 18px;
+    color: #989898;
+    text-align: center;
+}
+
+.div-follow {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.img-contact {
+    width: 20px;
+    height: 20px;
+}
+.phone {
+    display: flex;
+    font-weight: 400;
+    font-size: 21px;
+    color: #cccccc;
+    padding-top: 35px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.copy-link {
+    text-decoration: none;
+    color: #989898;
+    font-weight: 400;
+    font-size: 15px;
+}

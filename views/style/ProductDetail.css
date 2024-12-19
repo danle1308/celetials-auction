@@ -1,0 +1,159 @@
+.sec-detail {
+  background-color: #080D20;
+}
+
+.col-suggest {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px; 
+}
+
+.col-suggest::-webkit-scrollbar {
+  width: 5px;
+}
+
+.col-suggest::-webkit-scrollbar-thumb {
+  background-color: #22C55E;
+  border-radius: 10px;
+}
+
+.col-suggest::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.product-detail-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.suggest-title {
+  font-family: var(--space-grotesk-fonts);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.product-item {
+  border: 1.5px solid #3e3e3e;
+  border-radius: 5px;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.img-suggest {
+  width: 100%;
+  border-radius: 8px;
+  height: 150px;
+}
+
+.name-suggest {
+  font-size: 23px;
+  color: #989898;
+}
+.price-suggest {
+  font-size: 15px;
+  color: #989898;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  height: fit-content;
+  font-family: var(--space-grotesk-fonts);
+  color: white;
+}
+
+.img-product {
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.read-more-btn {
+  align-self: flex-end;
+  margin-top: 10px;
+  background-color: #22C55E;
+  border: none; 
+  color: white;
+  cursor: pointer; 
+  font-size: 14px; 
+  padding: 5px 10px;
+}
+
+.details-column {
+  margin-top: 5%;
+}
+
+.read-more-btn:hover {
+  background-color: #274832;
+}
+.details-container {
+  font-family: var(--space-grotesk-fonts);
+  color: white;
+  font-weight: 400;
+}
+
+.product-name {
+  font-family: var(--space-grotesk-fonts);
+  font-weight: 400;
+  font-size: 35px;
+  color: white;
+}
+
+.product-author {
+  font-size: 15px;
+  color: #aeaeae;
+}
+.product-price {
+  font-size: 30px;
+  color: #22C55E;
+}
+.auction-time {
+  font-size: 15px;
+  color: #aeaeae;
+}
+.price-step {
+  font-size: 15px;
+  color: #aeaeae;
+}
+.product-description-title {
+  font-size: 15px;
+  color: #aeaeae;
+}
+
+.btn-regis {
+  width: 25%;
+  height: 40px;
+  background-color: #22C55E !important;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--space-grotesk-fonts);
+  color: white !important;
+
+}
+
+.btn-wish {
+  width: 18%;
+  height: 40px;
+  background-color: #22C55E;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--space-grotesk-fonts);
+  color: white;
+}
+
+.btn-regis:hover {
+  transition: 500ms;
+  scale: 1.1;
+  box-shadow: 0px 4px 10px 5px #1c5730;
+}
+
+.btn-wish:hover {
+  transition: 500ms;
+  scale: 1.1;
+  box-shadow: 0px 4px 10px 5px #1c5730;
+}
