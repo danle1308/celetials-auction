@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import '@/views/style/components/SplashScreen.css';
@@ -6,8 +8,8 @@ import { getHighestBidder, getHighestPrice } from '@/views/services/AuctionServi
 
 const SplashScreen = ({ auctionIdLive, onComplete, zoomSpeed = 2.5, winner,  price}) => {
 
-  const [winner, setWinner] = useState('');
-  const [price, setHighestPrice] = useState(0);
+  const [winnerState, setWinner] = useState('');
+  const [highestPrice, setHighestPrice] = useState(0);
 
   //lấy thông tin người chiến thắng của cuộc đấu giá ấy
   const getResult = async () => {
@@ -50,11 +52,11 @@ const SplashScreen = ({ auctionIdLive, onComplete, zoomSpeed = 2.5, winner,  pri
         <h1 className="congrat">Congratulations!</h1>
         <div className="name-winner">
           <h1 className="tit-name">Winner:&nbsp; </h1>
-          <h1 className="name"> {winner ? formatWalletAddress(winner) : (<ClipLoader color="#22C55E" size={18} />)}</h1>
+          <h1 className="name"> {winnerState ? formatWalletAddress(winnerState) : (<ClipLoader color="#22C55E" size={18} />)}</h1>
         </div>
         <div className="name-price">
           <h1 className="tit-price">Hammer Price:&nbsp; </h1>
-          <h1 className="price"> {price ? `${price.toLocaleString()} $` : (<ClipLoader color="#22C55E" size={18} />)}</h1>
+          <h1 className="price"> {highestPrice ? `${highestPrice.toLocaleString()} $` : (<ClipLoader color="#22C55E" size={18} />)}</h1>
         </div>
       </motion.div>
     </motion.div>
